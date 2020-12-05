@@ -1,0 +1,84 @@
+/*our team*/
+
+body{
+  padding-top:50px;
+  background-size:cover;
+  background-position:center;
+  background-image:url("team.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:100vw ;
+  height:100vh ;
+  overflow-x: hidden;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  BACKGROUND: LINEAR-GRADIENT(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD101D);
+  color: white;
+}
+
+icon-bar {
+  position: fixed;
+  top: 50%;
+}
+
+.icon-bar b {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 26.25pt;
+  padding-top: 7px;
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: white;
+  top:0 ;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.k{
+  color: #96ceb4 ;
+}
+
+.g{
+  color: #ffeead;
+}
+
+.s{
+  color: #36454f  ; 
+}
+
+.a{
+  color: #49657b;
+}
+
+.v{
+  color: #3d1e6d;
+}
+
+img{
+   object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p{
+  font-size: 30px;
+}

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spice Klub</title>
+  <meta name="Description" content="Spice Klub">
+  
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="media.css" type="text/css" rel="stylesheet">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/4266/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+    </script>
+
+    <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/4255/",
+				type:"post",
+				data:$("#MyForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a href="#section1" class="navbar-brand" style="color:red;font-size: 5vh">𝓢𝓹𝓲𝓬𝓮 𝓚𝓵𝓾𝓫</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1"style="font-size: 1.5625vw">Home page</a></li>
+          <li><a href="#section2"style="font-size: 1.5625vw">About Us</a></li>
+          <li><a href="#section3"style="font-size: 1.5625vw">Menu</a></li>
+          <li><a href="#section4"style="font-size: 1.5625vw">Home delivery</a></li>
+          <li><a href="#section5"style="font-size: 1.5625vw">Review</a></li>
+          <li><a href="#section6"style="font-size: 1.5625vw">Contact Us</a></li>
+          <li><a href="#section7"style="font-size: 1.5625vw">Upcoming Events</a></li> 
+          <li><a href="#section8"style="font-size: 1.5625vw">Our Team</a></li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+
+<marquee behavior="scroll" direction="left" scrollamount="16">
+  <img src = "logo.webp" class="responsive" width="auto" height="auto" alt="logo">
+  <img src = "covid.webp"class="responsive" width="auto" height="auto" alt="covid">
+  <img src = "soups.webp"class="responsive" width="auto" height="auto"alt="soups">
+  <img src = "starters.webp"class="responsive" width="auto" height="auto"alt="starters">
+  <img src = "salad.webp"class="responsive" width="auto" height="auto"alt="salad">
+  <img src = "main.webp"class="responsive" width="auto" height="auto"alt="main">
+  <img src = "breads.webp"class="responsive" width="auto" height="auto"alt="breads">
+  <img src = "chinese.webp"class="responsive" width="auto" height="auto"alt="chinese">
+  <img src = "beverages.webp"class="responsive" width="auto" height="auto"alt="Beverages">
+  <img src = "desert.webp"class="responsive" width="auto" height="auto"alt="desert">
+</marquee>
+</div>
+
+<!--about us-->
+
+<div id="section2" class="container">
+  <div class="ab">
+    <h1> 
+       ABOUT US 
+    </h1>
+    <center>
+    <p>
+    <b> 
+      We are food enthusiasts and critics who believe that something was still missing to complete the experience of an Authentic Indian Cuisine. 
+    </b>  
+    </p>
+    <p>
+    <b>  
+    The three main pillars of our restaurants are : Ambience, Service ,and Taste. We at Spice Klub want to bring these 3 facets to you with garnish of our love for great food. 
+    </b>
+    </p> 
+    </center>
+    </div> 
+  <div class="row" id="ab">
+    <div class="col-md-6">
+      <div class="thumbnail">
+          <img src="chef.webp" style="width:100%;heigth:400px;"class="img-responsive" alt="Chef">
+          <div class="caption">
+            <h1>Excellent chef </h1>
+            <p>Our chef provide you with the best food & great taste</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+          <img src="waiter.webp"style="width:100%;heigth:400px;" class="img-responsive" alt="Waiter">
+          <div class="caption">
+             <h1>Correlate  Waiters</h1>
+              <p>Our waiters  are well trained in coordinating with customer and provicing the best and royal service </p>
+          </div>
+      </div>
+    </div>   
+  </div> 
+</div>
+
+<!--menu-->
+<div id="section3" class="container">
+  <div class="row">
+  
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"style="height: 105vh;">
+      <div class="wrapper">
+       <iframe src="dish.html" name="left" title="left" class="embed-responsive-item"
+        style="
+         position: static;
+         top: 0px;
+         bottom: 0px;
+         right: 0px;
+         border: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         height:105vh;
+         z-index: 999999;
+         height: 646.8px;
+         width:  65.65vw;
+        ">
+       </iframe>
+      </div> 
+    </div>
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" style="height: 100vh;">
+      <div class="wrapper">
+      <iframe src="menu.html" name="rigth" title="rigth" class="embed-responsive-item" id="rigth"
+        style="
+         position: static;
+         top: 0px;
+         bottom: 0px;
+         right: 0px;
+         border: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         z-index: 999999;
+         height: 105vh;
+         min-width:76vw;
+         max-width:auto;
+        ">
+       </iframe>
+      </div>
+  </div>
+</div>
+</div>
+
+<!--home delivery-->
+
+<div id="section4" class="container">
+  <div class="del">
+    <br><br><br><br><br><br>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+      <h1>We Assure You Delivery In 30 Minutes Within 5km Radius</h1>
+      <br><br><br><br><br><br><br><br>
+      <a href="tel:123-456-7890"><p>Call on 1234567890</p></a>
+    </div>
+  </div>
+ </div> 
+
+
+<!--Review of us-->
+
+<div id="section5" class="container">
+ 
+
+   <p>Check out our review by our customer and food critic 
+      <button type="button" onclick="myFunction()">
+       Click here to add review
+      </button>
+   </p>  
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<table style="height: 50px;" width="200" id="myTable">
+			<tbody>
+				<tr style="color:#ff073a; font-size: 45px;">
+					  <td id="a" colspan="2"><strong>Food critic</strong></td>
+				</tr> 
+				<tr>
+					 <th style="width: 90px;"><b>food</b></th>
+					 <th style="width: 90px;"><b>rate</b></th>
+				</tr> 
+				<tr>
+						<td style="width: 90px;font-size: 30px;">good</td>
+						<td style="width: 90px;font-size: 30px;">5</td>
+				</tr>
+				<tr>
+						<td style="width: 90px;font-size: 30px;">nice</td>
+						<td style="width: 90px;font-size: 30px;">6</td>
+				</tr>
+					<tr style="color:#ff073a; ">
+						<td style="width: 90px;font-size: 45px;"colspan="2"><strong>Customer review</strong></td>
+				</tr>
+
+			</tbody>
+		</table>
+
+<script>
+function myFunction() {
+food=prompt("How was the food:");
+rate=prompt("How much would rate ous between 0 to 10?:");
+
+if (rate > 10) {
+  n=prompt("plz rate between 0 to 10");
+
+  if (n>10){
+     alert("Error! Plz try again");
+  }
+ else{
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(5);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  cell1.innerHTML = ""+food;
+  cell2.innerHTML = ""+n;
+  }
+} 
+
+else 
+{
+var table = document.getElementById("myTable");
+var row = table.insertRow(5);
+var cell1 = row.insertCell(0);
+var cell2 = row.insertCell(1);
+cell1.innerHTML = ""+food;
+cell2.innerHTML = ""+rate;
+}
+ }
+</script>
+</div>
+
+<!--Contact Us-->
+
+<div id="section6" class="container-fluid" >
+
+  
+<div class="container-fluid">
+<div class="row">
+     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="left"
+     style=" background-color:#301728FF;min-width:46.8vw;max-width:auto;min-height: 97.4vh;max-heigth:auto;"><!--left-->
+         <div class="centered">
+            <h1 >Image Gallery</h1><!--heading of left-->
+         </div>  
+         
+<br><br><br><br><br><br><br><br>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading" style="background-color:#00203FFF;">
+      <h1 class="panel-title"style="color:#ADEFD1FF ;font-size:6vh;">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Business Events</a>
+      </h1>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse ">
+      <div class="panel-body">
+        <div class="scroll"> 
+           <img src="b1.webp"alt="Business Events">
+           <img src="b2.webp"alt="Business Events">
+           <img src="b3.webp"alt="Business Events">
+           <img src="b4.webp"alt="Business Events">
+           <img src="b5.webp"alt="Business Events">
+        </div> 
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" style="background-color:#00203FFF;">
+      <h1 class="panel-title"style="color:#ADEFD1FF ;font-size:6vh;">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Graduation Parties</a>
+      </h1>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="scroll">   
+          <img src="g1.webp" alt="Graduation Parties">
+          <img src="g2.webp"alt="Graduation Parties">
+          <img src="g3.webp"alt="Graduation Parties">
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+   <div class="panel-heading" style="background-color:#00203FFF;">
+      <h1 class="panel-title"style="color:#ADEFD1FF ;font-size:6vh;">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Birthdays Parties</a>
+      </h1>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="scroll">  
+          <img src="1.webp"alt="Birthdays Parties">
+          <img src="2.webp"alt="Birthdays Parties">
+          <img src="3.webp"alt="Birthdays Parties">
+          <img src="4.webp"alt="Birthdays Parties">
+          <img src="5.webp"alt="Birthdays Parties">
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" style="background-color:#00203FFF;">
+      <h1 class="panel-title"style="color:#ADEFD1FF ;font-size:6vh;">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Weddings ceremonies</a>
+      </h1>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+         <div class="scroll"> 
+          <img src="w1.webp" alt="Weddings ceremonies">
+          <img src="w2.webp" alt="Weddings ceremonies">
+          <img src="w3.webp" alt="Weddings ceremonies">
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" style="background-color:#00203FFF;">
+      <h1 class="panel-title"style="color:#ADEFD1FF ;font-size:6vh;">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        Parties & Others</a>
+      </h1>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="panel-body">
+          <div class="scroll"> 
+          <img src="other2.webp"alt="Others">
+          <img src="other3.webp"alt="Others">
+          <img src="other4.webp"alt="Others">
+          </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+</div> 
+
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" 
+  style=" background-color:#343148FF;min-width:46.8vw;max-width:auto;min-height: 97.4vh;max-heigth:auto;" id="rigth">
+<div class="boxesContainer">
+  <div class="cardBox">
+    <div class="card" id="cr">
+      <div class="front">
+         <p class="text">
+               We cater for Weddings, Special Events and Large gatherings. Enjoy the same lip smacking delicacies that you have come to expect at our restaurant, now at your place. Go ahead and enjoy the party that you have always wanted to have, now without worrying about how to serve your guests.
+               <img src="logo.webp" style="width:100%;height:100%;" alt="logo">
+               <div class="rectangle">
+                 <h1>Hover on me</h1>
+               </div>
+          </p>
+      </div>
+      <div class="back">
+        <div class="form-group">
+               <h1>Contact Us</h1>
+               <form id="myForm">
+		             <label>Name
+                   <br>
+		                 <input style="width:60%;" class="form-control" name="Name" type="text" />
+                 </label> 
+                <br>
+		             <label>Email
+                   <br>
+		                 <input style="width:60%;" class="form-control" name="Email" type="email" />
+                 </label> 
+                 <br>
+		             <label>Message
+                   <br>
+		                 <input  style="width:60%;"class="form-control" name="Message" type="text"/>
+                 </label>
+		               <br><br>
+                     <div class="mid">
+                       <input type="reset" class="btn btn-default" value="Reset" id="r" style="margin:5px;color:#FFD662FF;background-color:#00203FFF;">
+                      <button onclick='SubForm()'id="m" class="btn btn-default" style="margin:5px;color:#00539cff;background-color:#ADEFD1FF;"> Submit</button>
+                     </div> 
+                   <br>
+	              </form>
+             </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!--upcoming-->
+
+<div id="section7" class="container-fluid">
+ 
+    <div class="container">
+      <iframe class="responsive-iframe" src="https://calendar.google.com/calendar/embed?height=450&amp;wkst=2&amp;bgcolor=%23D81B60&amp;ctz=Asia%2FDubai&amp;src=OWhwcTFtb3I0bm1kNGlyODltaTZncms2bGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;showTz=0" style="border-width:0;"width="100vw" height="200px" frameborder="0" scrolling="no" title="upcoming"></iframe>
+    </div>  
+
+</div> 
+
+<!--team-->
+
+<div id="section8" class="container-fluid" >
+   
+   <iframe src="team.html"
+   style="
+          top: 0px;
+          bottom: 0px;
+          right: 0px;
+          width: 100vw;
+          border: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          z-index: 999999;
+          height: 100vh;
+          overflow-x: hidden;
+          overflow-y: hidden;
+       ">
+      </iframe>
+  </div>
+
+
+<!--footer-->
+
+ <footer>
+  <div class="footer-container">      
+    <div class="row">
+        <div class="col-sm-5 ">
+          <div id="right-col">
+           <h1 style="font-size:35px;text-align:center;">Spice Klub</h1>
+           <p style="font-size: 33px;text-align:center;color:#F6EA7BFF;">* * *</p>
+           <p style="font-size: 25px;text-align:justify;margin-left:10px;color:white;">Spice Klub is known for its traditional delicacies for its authentic flavours. At Spice Klub, our food is inspired by the authentic home cooking of beautiful, herbal spice-rich, where all our chefs are trained preparing age old recipes. Preparing food in an age old way is our passion, prepared for you always with devotion, love, and the finest ingredients</p>  
+          </div> 
+         </div>
+
+        <div class="col-sm-2 ">
+             <h1 style="font-size: 3vw;" class="fo">Follow us</h1> 
+              <br>
+              <a href="#" class="fa fa-facebook" style="font-size: 30px;text-align:center;"></a><br><br>
+              <a href="#" class="fa fa-twitter"style="font-size: 30px;text-align:center;"></a><br><br>
+              <a href="#" class="fa fa-linkedin"style="font-size: 30px;text-align:center;"></a><br><br>
+              <a href="#" class="fa fa-youtube"style="font-size: 30px;text-align:center;"></a><br><br>
+              <a href="#" class="fa fa-instagram"style="font-size: 30px;text-align:center;"></a><br><br>
+        </div>
+
+        <div class="col-sm-5">
+         <div id="left-col"> 
+          <h1>Our Newsletter</h1>
+          <div class="border"></div>
+          <br>
+          <p class="news" style=" font-size: 25px;color: blue;">Enter Your Email to get our news and updates.</p>
+
+          	 <form id="MyForm">
+		          <input name="Newsletter" class="txtb" />
+		           <br/>
+	           </form>
+	
+          <button onclick='SubForm()' class="btn">Submit</button>
+          <br>
+          <h1>Call Us</h1>
+          <div class="border"></div>
+          <br>
+             <a href="tel:123-456-7890" style=" font-size: 28px;color: darkgreen;text-decoration: none;"><p>Call on 1234567890</p></a>
+         </div> 
+        </div>
+    </div>
+  </footer>
+    
+
+</body>
+</html>

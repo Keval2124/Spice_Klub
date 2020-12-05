@@ -1,0 +1,146 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 580px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .ab .thumbnail {
+  width:100% ; 
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+#section2 {
+  padding-top:50px;
+  color: #fff; 
+  width:100vw ;
+  height:240vh ;
+ }
+  
+  }  
+
+/* ----------- Non-Retina Screens ----------- */
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+   .ab .thumbnail{
+    margin-left:200px;
+    width:100% ; 
+   }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  .ab  .thumbnail{
+  margin-left:200px;
+  width:100% ; 
+}
+}
+
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: auto;
+  }
+  #right-col{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  #left-col{
+    width: 100%;
+     margin-bottom: 0;
+  }
+
+}
+
+
+@media screen and (max-width:770px){
+   .btn{
+    margin: 0;
+    width: 90%;
+    margin-top: 20px;
+    }
+   .txtb{
+    margin: 0;
+    width: 90%;
+    margin-top: 20px;
+   } 
+   .fa{
+     font-size: 80px;
+     margin-left: 30px;
+   }
+   .fo{
+     font-size: 80px;
+     margin-left: 30px;
+   }
+   .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .card {
+    height: 97.5vh;
+  }
+}
+
+
+@media screen and (max-width:600px){
+ #section6 {
+  padding-top:50px;
+  width:100vw;
+  height: 190vh;
+ }
+  #section6 p{
+    font-size: 10px;
+  }
+
+  #section6 .flip-box {
+  background-color: transparent;
+  width:  50vw;
+  height: 180vh;;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .card {
+    height: 97.5vh;
+  }
+}
+
+@media screen and (max-width: 830px){
+  #section6 {
+    height:120vh ;
+  }
+
+  #left a{
+    font-size: 30px;
+  }
+}
+
+@media screen 
+   and (max-device-width: 560px)
+   and (min-device-width: 470px) {
+     #left a{
+       font-size: 28px;
+     }
+
+    #rigth p.text{
+       font-size: 18px;
+     }
+
+    .rectangle{
+       height:15vh ;
+     }
+
+    #section2{
+      width:300vh ;
+    } 
+}
+
