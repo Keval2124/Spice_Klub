@@ -69,17 +69,6 @@ body{
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   }
 
-  #section8{
-  padding-top:50px;
-  background-size:cover;
-  background-position:center;
-  background-image:url("team.webp");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width:100vw ;
-  height:110vh ;
-}
-
 /* homepage*/
 
 #section1 .responsive {
